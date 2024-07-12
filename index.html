@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juris Quill</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Juris Quill</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#submission">Submission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h2>Welcome to Juris Quill</h2>
+            <p>Your go-to platform for legal blogs and competitions.</p>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Latest Blog Articles</h2>
+        <div class="articles">
+            <article>
+                <h3>Article Title 1</h3>
+                <p>Excerpt of the blog article goes here...</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>Article Title 2</h3>
+                <p>Excerpt of the blog article goes here...</p>
+                <a href="#">Read More</a>
+            </article>
+            <!-- Add more articles as needed -->
+        </div>
+    </section>
+
+    <section id="submission" class="submission">
+        <h2>Submit Your Article</h2>
+        <form id="submission-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="article">Article:</label>
+            <textarea id="article" name="article" rows="10" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Juris Quill. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
